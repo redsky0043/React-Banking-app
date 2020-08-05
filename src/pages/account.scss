@@ -1,0 +1,171 @@
+$rubik: Rubik;
+$sans: Open Sans;
+
+.container{
+    margin: 40px 30px 0 30px;
+}
+ 
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header__title{
+    font-family: $rubik;
+    font-style: normal;
+    font-weight: bold;
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #1B1D28;
+}
+
+.header__carts{
+    width: 40px;
+    height: 40px;
+    background: url("../img/user.png") center no-repeat;
+    border: none;
+    background-color: #fff;
+}
+
+.slider{
+    width: 375px;
+    overflow: hidden;
+    position: relative;
+    right: 30px;
+}
+
+.slider__row{
+    display: flex;
+    width: 590px;
+    position: relative;
+    left: 0;
+    transition: all ease 0.5s;
+}
+
+.main__card{
+    background: #1B1D28;
+    border-radius: 35px;
+    width: 295px;
+    height: 200px;
+    margin-top: 40px;
+    position: relative;
+    left: 30px;
+    text-decoration: underline #1B1D28;
+    margin-right: 20px;
+}
+
+.second__card{
+    background:  #484950;
+    text-decoration: underline #484950;
+}
+
+.main__card__top{
+    padding-top: 55px;
+    margin-left: 35px;
+}
+
+.main__card__balance{
+    font-family: $sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 0.2em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.main__card__text{
+    font-family: $sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.main__card__number{
+    width: 260px;
+    margin-top: 35px;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+}
+
+.title{
+    font-family: $rubik;
+    margin: 50px 0 40px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #1B1D28;   
+}
+
+.data{
+    font-family: $sans;
+    font-style: normal;
+    font-weight: bold;
+    color: #1B1D28;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+
+.data__row{
+    display: flex;
+}
+
+.data__row__left{
+    width: 50%;
+}
+
+.data__row__right{
+    width: 50%;
+    text-align: right;
+}
+
+.data__row__date{
+    margin-top: 3px;
+    color: #E1E0EA;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: capitalize;
+}
+
+.none{
+    background: none;
+}
+
+// .button{
+//     position: absolute;
+//     height: 200px;
+//     width: 30px;
+//     right: 0;
+//     top: 0;
+//     border-top-right-radius: 30px;
+//     background-color: blue;
+//     border-bottom-right-radius: 30px;
+// }
+
+
+@media (min-width: 376px){
+    .slider{
+        width: 414px;
+    }
+}

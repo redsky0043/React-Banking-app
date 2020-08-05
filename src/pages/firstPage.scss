@@ -1,0 +1,79 @@
+$rubik: Rubik;
+$sans: Open Sans;
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+}
+
+.firstPage {
+    height: 50vh;
+    background: url(../img/leaf.png) no-repeat;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstPage__header{
+    font-family: $rubik;
+    font-size: 22px;
+    color: #1B1D28;
+    margin-top: 435px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.9em;
+    text-transform: uppercase;
+}
+
+.firstPage__about{
+    font-family: $rubik;
+    width: 85%;
+    font-size: 13px;
+    color: #A0A0A0;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.08em;
+}
+
+.firstPage__btn{
+    font-family: $rubik;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 14px;
+    color: #1B1D28;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 12px 53px;
+    font-style: normal;
+    border-radius: 25px;
+    background: #E1E0EA;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    text-decoration: underline #E1E0EA;
+    box-shadow: 0px 0px 30px #E1E0EA;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.firstPage__btn:active{
+    box-shadow: 0px 0px 30px 10px #E1E0EA;
+}
+
+@media (min-width: 376px){
+    .firstPage__btn{
+        margin-top: 30px;
+    }
+}

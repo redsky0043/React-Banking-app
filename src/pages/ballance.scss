@@ -1,0 +1,127 @@
+$rubik: Rubik;
+$sans: Open Sans;
+
+.header__card__menu{
+    width: 40px;
+    height: 40px;
+    background: url("../img/carts.png") center no-repeat;
+    border: none;
+    background-color: #fff;
+}
+ 
+.header__card__account{
+    width: 40px;
+    height: 40px;
+    background: url("../img/user.png") center no-repeat;
+    border: none;
+    background-color: #fff;
+}
+
+.ballance__icon {
+    margin-top: 70px;
+    background: #E1E0EA;
+    border-radius: 35px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ballance__icon__text{
+    margin-top: 15px;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #0e101b;
+}
+
+.ballance__icon__value{
+    margin-top: 5px;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #1B1D28;
+}
+
+.toggle{
+    margin-top: 50px;
+    display: flex;
+    font-family: $rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #1B1D28;
+}
+
+.toggle--not_active{
+    color: #E1E0EA;
+    text-decoration: underline #fff;
+}
+
+.graph{
+    margin-top: 60px;
+    background: url("../img/Graph.png") center no-repeat;
+    height: 160px;
+}
+
+.days{
+    margin-top: 35px;
+    display: flex;
+}
+
+.day{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: #1B1D28;
+}
+
+.active{
+    background: #EFEEF8;
+}
+
+.ballance__title{
+    margin: 25px 0 25px 0;
+    font-family: $rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #1B1D28;
+}
+
+.chart__wrapper{
+    position: relative;
+    right: 25px;
+    margin-top: 20px;
+}
+
+.apexcharts-yaxis-texts-g, .apexcharts-gridlines-horizontal{
+    display: none;
+}
+
+.apexcharts-toolbar{
+    right: 70px !important;
+}

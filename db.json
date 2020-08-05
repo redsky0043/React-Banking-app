@@ -1,0 +1,127 @@
+{
+  "spend": [
+    {
+      "id": 1,
+      "title": "Apple ICloud",
+      "value": "-$ 5.99",
+      "date": "17 JULY 2020"
+    },
+    {
+      "id": 2,
+      "title": "Novus",
+      "value": "-$ 6.99",
+      "date": "17 JULY 2020"
+    },
+    {
+      "id": 3,
+      "title": "TAKAVA",
+      "value": "-$ 11.35",
+      "date": "17 JULY 2020"
+    },
+    {
+      "id": 4,
+      "title": "Fora",
+      "value": "-$ 14.73",
+      "date": "14 JULY 2020"
+    },
+    {
+      "id": 5,
+      "title": "Cinabon",
+      "value": "-$ 6.45",
+      "date": "13 JULY 2020"
+    },
+    {
+      "id": 6,
+      "title": "McDonald's",
+      "value": "-$ 8.14",
+      "date": "12 JULY 2020"
+    },
+    {
+      "id": 7,
+      "title": "Silpo",
+      "value": "-$ 14.73",
+      "date": "11 JULY 2020"
+    },
+    {
+      "id": 8,
+      "title": "TAS",
+      "value": "-$ 3.14",
+      "date": "10 JULY 2020"
+    },
+    {
+      "id": 9,
+      "title": "ATB",
+      "value": "-$ 12.23",
+      "date": "9 JULY 2020"
+    },
+    {
+      "id": 10,
+      "title": "CinemaCity",
+      "value": "-$ 9.34",
+      "date": "8 JULY 2020"
+    },
+    {
+      "id": 11,
+      "title": "PornHub",
+      "value": "-$ 25.34",
+      "date": "7 JULY 2020"
+    }
+    
+  ],
+  "income": [
+    {
+      "id": 9,
+      "title": "Salary",
+      "value": "+$ 2200",
+      "date": "26 JULY 2020"
+    },
+    {
+      "id": 8,
+      "title": "Business",
+      "value": "+$ 942",
+      "date": "24 JULY 2020"
+    },
+    {
+      "id": 7,
+      "title": "Debt",
+      "value": "+$ 100",
+      "date": "23 JULY 2020"
+    },
+    {
+      "id": 6,
+      "title": "Stock",
+      "value": "+$ 291",
+      "date": "22 JULY 2020"
+    },
+    {
+      "id": 5,
+      "title": "Ltd.",
+      "value": "+$ 1566",
+      "date": "21 JULY 2020"
+    },
+    {
+      "id": 4,
+      "title": "Business",
+      "value": "+$ 984",
+      "date": "20 JULY 2020"
+    },
+    {
+      "id": 3,
+      "title": "Stock",
+      "value": "+$ 423",
+      "date": "19 JULY 2020"
+    },
+    {
+      "id": 2,
+      "title": "Ltd.",
+      "value": "+$ 1566",
+      "date": "18 JULY 2020"
+    },
+    {
+      "id": 1,
+      "title": "Salary",
+      "value": "+$ 873",
+      "date": "17 JULY 2020"
+    }
+  ]
+}

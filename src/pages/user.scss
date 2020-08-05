@@ -1,0 +1,97 @@
+$rubik: Rubik;
+$sans: Open Sans;
+
+.none{
+    background: none;
+}
+
+.user__photo{
+    background-image: url(../img/photo.png);
+    width: 197px;
+    height: 197px;
+    margin-top: 20px;
+}
+
+.user__title{
+    margin-top: 30px;
+    font-family: $sans;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+}
+
+.user__body{
+    margin-top: 35px;
+    padding-top: 25px;
+    padding-left: 43px;
+    height: 325px;
+    background: #E1E0EA;
+    border-radius: 50px;
+    font-family: $sans;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+}
+
+.user__body__cards{
+    height: 165px;
+}
+
+.user__body__title{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.user__body__name{
+    font-size: 14px;
+}
+
+.user__body__row{
+    height: 30px;
+    margin: 23px 0 0 20px;
+    display: flex;
+}
+
+.user__body__icon, 
+.user__body__icon__add, 
+.user__body__icon__password{
+    background: url(../img/pay.png) no-repeat;
+    height: 30px;
+    width: 30px;
+    margin: 0;
+}
+
+.user__body__icon__add{
+    background: url(../img/add_card.png) no-repeat;
+}
+
+.user__body__icon__password{
+    background: url(../img/key.png) no-repeat;
+}
+
+.user__body__name{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    color: #1B1D28;
+    text-decoration: underline #E1E0EA;
+}
+
+.user__logout{
+    margin-top: 15px;
+    text-align: center;
+    font-family: $rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    color: #A0A0A0;
+    text-transform: capitalize;
+    text-decoration: underline #fff;
+}

@@ -1,0 +1,84 @@
+$rubik: Rubik;
+$sans: Open Sans;
+
+.secondPage {
+    height: 50vh;
+    background: url(../img/leaf.png) no-repeat;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondPage__header{
+    font-family: $rubik;
+    font-size: 22px;
+    color: #1B1D28;
+    margin-top: 400px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.9em;
+    text-transform: uppercase;
+}
+
+.authorization{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.authorization__title{
+    font-family: $rubik;
+    right: 110px;
+    position: relative;
+    font-size: 18px;
+    color: #1B1D28;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+}
+
+.authorization__input{
+    font-family: $rubik;
+    width: 275px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: bold;
+    line-height: 26px;
+    padding: 10px 20px;
+    font-style: normal;
+    border-radius: 25px;
+    background: #1B1D28;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.authorization__input:focus{
+    box-shadow: 0px 0px 30px #8C8C94;
+}
+
+.secondPage__btn:active{
+    box-shadow: 0px 0px 30px 10px #E1E0EA;
+}
+
+@media (min-width: 376px){
+    .authorization{
+        margin-top: 10px;
+    }
+
+    .authorization__input{
+        margin-top: 20px;
+    }
+}
