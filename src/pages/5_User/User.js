@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import './user.scss';
-import NavHeader from '../navHeader.js'
+import NavHeader from '../../components/NavHeader.js'
 
  
 const User = () => {
