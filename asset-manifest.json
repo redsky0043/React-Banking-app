@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Banking-app/static/css/main.8b586aea.chunk.css",
+    "main.js": "/React-Banking-app/static/js/main.a09f7182.chunk.js",
+    "main.js.map": "/React-Banking-app/static/js/main.a09f7182.chunk.js.map",
+    "runtime-main.js": "/React-Banking-app/static/js/runtime-main.602c5ca9.js",
+    "runtime-main.js.map": "/React-Banking-app/static/js/runtime-main.602c5ca9.js.map",
+    "static/js/2.feac507f.chunk.js": "/React-Banking-app/static/js/2.feac507f.chunk.js",
+    "static/js/2.feac507f.chunk.js.map": "/React-Banking-app/static/js/2.feac507f.chunk.js.map",
+    "index.html": "/React-Banking-app/index.html",
+    "precache-manifest.0c6d9945870e50bf25b8218bd8cb5769.js": "/React-Banking-app/precache-manifest.0c6d9945870e50bf25b8218bd8cb5769.js",
+    "service-worker.js": "/React-Banking-app/service-worker.js",
+    "static/css/main.8b586aea.chunk.css.map": "/React-Banking-app/static/css/main.8b586aea.chunk.css.map",
+    "static/js/2.feac507f.chunk.js.LICENSE.txt": "/React-Banking-app/static/js/2.feac507f.chunk.js.LICENSE.txt",
+    "static/media/authorization.scss": "/React-Banking-app/static/media/leaf.2bfb316a.png",
+    "static/media/user.scss": "/React-Banking-app/static/media/photo.4d523ca4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.602c5ca9.js",
+    "static/js/2.feac507f.chunk.js",
+    "static/css/main.8b586aea.chunk.css",
+    "static/js/main.a09f7182.chunk.js"
+  ]
+}
