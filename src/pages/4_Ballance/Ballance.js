@@ -5,7 +5,7 @@ import './Ballance.scss';
 import NavHeader from '../../components/NavHeader.js'
 import { CostList } from '../../components/CostList'
 import { TotalBallance } from '../../components/TotalBallance'
-import Test from '../../components/Test'
+import DataForGraph from '../../components/DataForGraph'
 import { fetchData } from '../../shared/fetch_data'
 
 class Ballance extends Component {
@@ -53,7 +53,7 @@ class Ballance extends Component {
             </div>
           </div>
 
-          <Test />
+          <DataForGraph />
 
           <div className="ballance__title">
             Income

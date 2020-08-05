@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import './FirstPage.scss';
-import Start_button from '../../components/Start_button'
+import StartButton from '../../components/StartButton'
 
 const FirstPage = () => (
   <div className="firstPage">
@@ -15,7 +15,7 @@ const FirstPage = () => (
           Ulix is the Visa debit card and mobile app that connected your money <br /> to friends, famiy, brands and experiences
         </p>
         <Link to='/authorization'>
-          <Start_button name='Get Started' />
+          <StartButton name='Get Started' />
         </Link>
       </div>
     </div>

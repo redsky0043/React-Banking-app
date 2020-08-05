@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { withRouter } from "react-router-dom";
 
 import './Authorization.scss';
-import Start_button from '../../components/Start_button'
+import StartButton from '../../components/StartButton'
 
 class Authorization extends Component {
 
@@ -59,7 +59,7 @@ class Authorization extends Component {
                   placeholder="Password"/>
               </div>
               <div onClick={this.validate}>
-                <Start_button name='Go' />
+                <StartButton name='Go' />
               </div>
             </form>  
           </div>
