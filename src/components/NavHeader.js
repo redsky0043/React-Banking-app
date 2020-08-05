@@ -6,7 +6,6 @@ const NavHeader = (props) => {
         <div className="header">
             <Link to='/account'> 
                 <button className='header__card__menu'></button>
-                {/* <img className="user__body__icon" src={require('../img/carts.png')} /> */}
             </Link>
             <div className="header__title">
                 {props.title}

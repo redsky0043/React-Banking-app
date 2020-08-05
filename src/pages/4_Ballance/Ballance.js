@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-import './ballance.scss';
-import NavHeader from './navHeader.js'
-import Graph from '../components/graph.js'
-import { fetchData } from '../shared/fetch_data'
-import { CostList } from '../components/costList'
-import { TotalBallance } from '../components/totalBallance'
+import './Ballance.scss';
+import NavHeader from '../../components/NavHeader.js'
+import { CostList } from '../../components/CostList'
+import { TotalBallance } from '../../components/TotalBallance'
+import Test from '../../components/Test'
+import { fetchData } from '../../shared/fetch_data'
 
-class Spend extends Component {
+class Ballance extends Component {
 
   constructor(props) {
     super(props);
@@ -18,7 +18,7 @@ class Spend extends Component {
   };
 
   componentDidMount() {
-    fetchData('spend')
+    fetchData('income')
       .then(data => {
         this.setState({ posts: data });
       });
@@ -35,7 +35,7 @@ class Spend extends Component {
 
           <div className="ballance__icon">
             <div className="ballance__icon__text">
-              total expenses
+              total income
             </div>
             <div className="ballance__icon__value">
               <TotalBallance apiData={posts} />
@@ -44,19 +44,19 @@ class Spend extends Component {
 
           <div className="toggle">
             <div >
-              <Link to='/ballance' className="toggle--not_active">
-                Income
-              </Link>
+              Income
             </div>
-            <div>
-              Spend
+            <div >
+              <Link to='/spend' className="toggle--not_active">
+                Spend
+              </Link>
             </div>
           </div>
 
-          {/* <Graph /> */}
+          <Test />
 
           <div className="ballance__title">
-            expenses
+            Income
           </div>
 
           <CostList posts={posts} />
@@ -67,5 +67,5 @@ class Spend extends Component {
   }
 };
 
-export default Spend
+export default Ballance
 
