@@ -6,7 +6,7 @@ $sans: Open Sans;
 }
 
 .user__photo{
-    background-image: url(../../img/photo.png);
+    background-image: url(../img/photo.png);
     width: 197px;
     height: 197px;
     margin-top: 20px;
@@ -60,18 +60,18 @@ $sans: Open Sans;
 .user__body__icon, 
 .user__body__icon__add, 
 .user__body__icon__password{
-    background: url(../../img/pay.png) no-repeat;
+    background: url(../img/pay.png) no-repeat;
     height: 30px;
     width: 30px;
     margin: 0;
 }
 
 .user__body__icon__add{
-    background: url(../../img/add_card.png) no-repeat;
+    background: url(../img/add_card.png) no-repeat;
 }
 
 .user__body__icon__password{
-    background: url(../../img/key.png) no-repeat;
+    background: url(../img/key.png) no-repeat;
 }
 
 .user__body__name{

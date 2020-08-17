@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
-import FirstPage from './pages/1_FirstPage/FirstPage';
-import Authorization from './pages/2_Authorization/Authorization';
-import Account from './pages/3_Account/Account';
-import Ballance from './pages/4_Ballance/Ballance';
-import Spend from './pages/4_Ballance/Spend';
-import User from './pages/5_User/User';
+import FirstPage from './pages/firstPage.js';
+import Authorization from './pages/authorization.js';
+import Account from './pages/account.js';
+import Ballance from './pages/ballance.js';
+import Spend from './pages/spend.js';
+import User from './pages/user';
 
 
 ReactDOM.render((

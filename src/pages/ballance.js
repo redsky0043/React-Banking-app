@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
 import './ballance.scss';
-import NavHeader from '../../components/NavHeader.js'
-import { CostList } from '../../components/CostList'
-import { TotalBallance } from '../../components/TotalBallance'
-import { fetchData } from '../../shared/fetch_data'
+import NavHeader from './navHeader.js'
+import { fetchData } from '../shared/fetch_data'
+import { CostList } from '../components/costList'
+import { TotalBallance } from '../components/totalBallance'
+import Test from './test'
 
-class Spend extends Component {
+class Ballance extends Component {
 
   constructor(props) {
     super(props);
@@ -17,7 +18,7 @@ class Spend extends Component {
   };
 
   componentDidMount() {
-    fetchData('spend')
+    fetchData('income')
       .then(data => {
         this.setState({ posts: data });
       });
@@ -29,35 +30,42 @@ class Spend extends Component {
     return (
       <div className="ballance">
         <div className="container">
-          <NavHeader title='ulix' />
+
+          <NavHeader display='none' title='ulix' />
+
           <div className="ballance__icon">
             <div className="ballance__icon__text">
-              total expenses
+              total income
             </div>
             <div className="ballance__icon__value">
               <TotalBallance apiData={posts} />
             </div>
           </div>
+
           <div className="toggle">
             <div >
-              <Link to='/ballance' className="toggle--not_active">
-                Income
+              Income
+            </div>
+            <div >
+              <Link to='/spend' className="toggle--not_active">
+                Spend
               </Link>
             </div>
-            <div>
-              Spend
-            </div>
           </div>
-          {/* <Graph /> */}
+
+          <Test />
+
           <div className="ballance__title">
-            expenses
+            Income
           </div>
+
           <CostList posts={posts} />
+
         </div>
       </div>
     )
   }
 };
 
-export default Spend
+export default Ballance
 

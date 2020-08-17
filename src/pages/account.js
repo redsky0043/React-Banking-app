@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import './Account.scss';
-import MainCard from '../../components/MainCard'
-import SecondCard from '../../components/SecondCard.js'
-import NavHeader from '../../components/NavHeader.js'
-import { CostList } from '../../components/CostList'
-import { fetchData } from '../../shared/fetch_data'
+import './account.scss';
+import MainCard from '../components/mainCard'
+import SecondCard from '../components/secondCard.js'
+import NavHeader from '../pages/navHeader.js'
+import { fetchData } from '../shared/fetch_data'
+import { CostList } from '../components/costList'
+// import { TotalBallance } from '../components/totalBallance'
 
 
 class Account extends React.Component {

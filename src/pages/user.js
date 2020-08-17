@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import './user.scss';
-import NavHeader from '../../components/NavHeader.js'
+import NavHeader from './navHeader.js'
 
  
 const User = () => {
@@ -10,13 +10,19 @@ const User = () => {
     return (
       <div>
         <div className="container">
+
           <NavHeader title='profile' />
+
           <div className="user__photo"></div>
+
           <div className="user__title">
             <span className='user__title__text'>Julianna Didyk</span>
           </div>
+
         </div>
+
         <div className="user__body">
+
           <div className="user__body__cards">
             <div className="user__body__title">
               Cards
@@ -38,6 +44,8 @@ const User = () => {
               </div>
             </Link>
           </div>
+          
+
           <div className="user__body__cards">
             <div className="user__body__title">
               Settigs
@@ -55,12 +63,15 @@ const User = () => {
               </div>
             </div>
           </div>
+
         </div>
+
         <Link to="/" > 
           <div className="user__logout">
             Logout
           </div>     
         </Link>
+
       </div>
     ) 
 };

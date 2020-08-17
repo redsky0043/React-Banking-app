@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-import './Ballance.scss';
-import NavHeader from '../../components/NavHeader.js'
-import { CostList } from '../../components/CostList'
-import { TotalBallance } from '../../components/TotalBallance'
-import DataForGraph from '../../components/DataForGraph'
-import { fetchData } from '../../shared/fetch_data'
+import './ballance.scss';
+import NavHeader from './navHeader.js'
+import Graph from '../components/graph.js'
+import { fetchData } from '../shared/fetch_data'
+import { CostList } from '../components/costList'
+import { TotalBallance } from '../components/totalBallance'
 
-class Ballance extends Component {
+class Spend extends Component {
 
   constructor(props) {
     super(props);
@@ -18,7 +18,7 @@ class Ballance extends Component {
   };
 
   componentDidMount() {
-    fetchData('income')
+    fetchData('spend')
       .then(data => {
         this.setState({ posts: data });
       });
@@ -35,7 +35,7 @@ class Ballance extends Component {
 
           <div className="ballance__icon">
             <div className="ballance__icon__text">
-              total income
+              total expenses
             </div>
             <div className="ballance__icon__value">
               <TotalBallance apiData={posts} />
@@ -44,19 +44,19 @@ class Ballance extends Component {
 
           <div className="toggle">
             <div >
-              Income
-            </div>
-            <div >
-              <Link to='/spend' className="toggle--not_active">
-                Spend
+              <Link to='/ballance' className="toggle--not_active">
+                Income
               </Link>
+            </div>
+            <div>
+              Spend
             </div>
           </div>
 
-          <DataForGraph />
+          {/* <Graph /> */}
 
           <div className="ballance__title">
-            Income
+            expenses
           </div>
 
           <CostList posts={posts} />
@@ -67,5 +67,5 @@ class Ballance extends Component {
   }
 };
 
-export default Ballance
+export default Spend
 

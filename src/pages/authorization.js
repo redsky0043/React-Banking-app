@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { withRouter } from "react-router-dom";
 
-import './Authorization.scss';
-import StartButton from '../../components/StartButton'
+import './authorization.scss';
+import Button from '../components/getStarter_button';
 
 class Authorization extends Component {
 
@@ -54,12 +54,12 @@ class Authorization extends Component {
                 <input className="authorization__input"
                   name='password' 
                   value={this.state.password}
-                  onChange={this.handleInputChange} 
+                  onChange={(e) => this.handleInputChange(e)} 
                   type="password"  
                   placeholder="Password"/>
               </div>
               <div onClick={this.validate}>
-                <StartButton name='Go' />
+                <Button name='Go' />
               </div>
             </form>  
           </div>
