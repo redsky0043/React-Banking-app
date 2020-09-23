@@ -19,7 +19,7 @@ class Authorization extends Component {
     const userName = this.state.userName;
     const userPassword = this.state.password;
   
-    if ( userName === 'Boiko' && userPassword === '123') {
+    if ( userName === 'password' && userPassword === '123') {
       this.props.history.push('/account');
     } else {
       alert('Please, check your information')
